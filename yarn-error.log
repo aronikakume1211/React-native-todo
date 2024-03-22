@@ -1,0 +1,55 @@
+Arguments: 
+  /home/chapi/.nvm/versions/node/v20.11.1/bin/node /usr/bin/yarnpkg install
+
+PATH: 
+  /home/chapi/.nvm/versions/node/v20.11.1/bin:/home/chapi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin",:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.11.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at internalConnectMultiple (node:net:1177:5)
+      at internalConnectMultiple (node:net:1177:5)
+      at internalConnectMultiple (node:net:1177:5)
+      at internalConnectMultiple (node:net:1177:5)
+      at internalConnectMultiple (node:net:1177:5)
+      at internalConnectMultiple (node:net:1177:5)
+      at internalConnectMultiple (node:net:1177:5)
+      at internalConnectMultiple (node:net:1177:5)
+
+npm manifest: 
+  {
+    "name": "todolist",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web"
+    },
+    "dependencies": {
+      "expo": "~50.0.14",
+      "expo-status-bar": "~1.11.1",
+      "react": "18.2.0",
+      "react-native": "0.73.6"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.20.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
